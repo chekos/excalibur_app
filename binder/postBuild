@@ -1,0 +1,9 @@
+# enable nbserverproxy
+jupyter serverextension enable --sys-prefix nbserverproxy
+
+# initialize excalibur
+excalibur initdb
+
+# serve webapp on port 5000
+excalibur webserver
+
